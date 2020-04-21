@@ -5,14 +5,40 @@ html {
 li {
   border-radius: 8px;
   border-style: solid;
+  border-width: thin;
 }
 
 td {
-  height: 150px;
+  height: 190px;
 }
 
 table, th, td {
   border-style: solid;
-  border-width: 1px;
   border-collapse: collapse;
+  border-color: #ccc;
+  border-width: thin;
+}
+
+.event-grey {
+  background-color: #f2f2f2;
+  border-color: #666;
+  color: #333;
+}
+
+.event-red {
+  background-color: #f2bcbc;
+  border-color: #b92828;
+  color: #991919;
+}
+
+.event-blue {
+  background-color: #d2d6f0;
+  border-color: #1d38da;
+  color: #38448e;
+}
+
+.event-green {
+  background-color: #d1e0bf;
+  border-color: #6b7e54;
+  color: #51603f;
 }
