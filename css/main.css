@@ -1,3 +1,8 @@
 html {
   font-family: Merriweather, serif;
 }
+
+li {
+  border-radius: 8px;
+  border-style: solid;
+}
